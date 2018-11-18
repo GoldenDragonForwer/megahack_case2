@@ -1,0 +1,142 @@
+body {
+	font-family:Tahoma;
+	background-color:rgb(237 , 237 , 237);
+	margin-left:0%;
+	margin-right:0%;
+	margin-top:0%;
+	margin-bottom:0%; 
+	font-size: 100%;
+}
+
+#asd {
+	background-color:#00985b;
+	padding-left:0%;
+
+		width:100%; 
+
+}
+
+#jpg {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin: -24.5% 0 0 -45%;
+}
+
+#body1 {
+		position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin: -16% 0 0 -37%;
+}
+
+#ty {
+			position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10%;
+    height:5%;
+    margin: 34% 0 0 16%;
+}
+
+#ty > img {
+	width:113%; 
+	height:113%;
+
+	position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin: -12.5% 0 0 -58%;
+}
+
+#ui {
+				position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin: 38.5% 0 0 -58%;
+}
+
+#questNum {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -36% 0 0 -8%;
+    font-size: 150%;
+}
+
+#quest {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: -29% 0 0 -48%;
+    font-size: 100%;
+}
+
+#answ1 {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: 0% 0 0 -25%;
+    font-size: 150%;
+}
+
+#answ2 {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: 0% 0 0 -25%;
+    font-size: 150%;
+}
+
+#answ3 {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 30%;
+    width: 50%;
+    margin: 0% 0 0 -25%;
+    font-size: 150%;
+}
+
+#j {
+    background-image: url("Ellipse 1.png");
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+	position: absolute;
+    left: 50%;
+    width: 20%;
+    height: 41.2%;
+
+    margin: 35% 0 0 -25%;
+}
+
+#k {
+	background-image: url("Ellipse 2.png");
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0);
+
+    border: none;
+
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    height: 41.2%;
+
+    margin: 11% 0 0 5%;
+}

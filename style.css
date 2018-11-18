@@ -1,0 +1,38 @@
+body {
+	background-color: white;
+	font-family:Tahoma;
+	 margin-left:0PX;
+    margin-top: 0PX;
+	 margin-right: 0px;
+}
+
+#header {
+	background-color: #c4c4c4;
+
+	
+}
+
+#header > img {
+	display: block;
+	margin: 0 auto;
+
+	max-width: 100%;
+	height: auto;
+}
+#bad {
+	border-left-color: #c4c4c4;
+	border-left-style: solid; /* Стиль линии */
+    border-left-width: 110px ; /* Толщина линии */
+    padding-left: 0PX;
+     padding-bottom:808px;
+    margin-left:0PX;
+    margin-top: 0PX;
+
+    border-right-color: #c4c4c4;
+	border-right-style: solid; /* Стиль линии */
+    border-right-width: 110px; /* Толщина линии */
+    padding-right: 0PX; /* Расстояние между линией и текстом */
+   	 margin-right: 0px;
+
+   	 text-align: center;
+}

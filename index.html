@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Autopayment</title>
+	<script src='logic.js'></script>
+	<link rel="stylesheet" type="text/css" href="usint.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div id = "header">
+		 <img src="logo.png" id="imga">
+	</div>
+
+	<div id = "bodyer">
+
+		<label id="a">
+			Пополнить баланс
+		</label>
+		
+		<label id="b">
+			Настроить автоплатёж
+		</label>
+
+		<label id="c">
+			оплата > пополнить баланс
+		</label>
+
+		<label id = "d">
+			Пополнить счёт
+		</label>
+
+		<label >
+			<img src="Layer 9.png" id="sber">
+		</label>
+
+		<label id="oplata">
+			  Выберите способ оплаты: <form action="">
+			                           <table>
+			                           	<tr><td> <input type="radio" name="a">Банковская карта</td></tr>
+			                            <br><tr><td> <input type="radio" name="a">QIWI</td></tr>
+			                           <tr><td> <input type="radio" name="a">Yandex кошелёк</td></tr>
+			                          <tr><td> <input type="radio" name="a">WebMoney</td></tr>
+			                   
+			                           </table>
+			                       </form>
+		</label>
+
+		<label id="info">
+			<form>
+		 Введите номер телефона: <br><input type="text" name="" size="15%">
+			<br>
+			<br>
+		Введите сумму (Р): <br> <input type="text" name="" size="15%">
+		</form>
+		</label>
+
+
+		<br>
+		<br>
+		<label id="auto">
+		<ol>
+			<li><input type="checkbox" name="c">Автоплатёж по порогу</li>
+			<li><input type="checkbox" name="c">Автоплатёж по дате</li>
+			<li><input type="checkbox" name="c">Автоплатёж на Абонентскую плату</li>
+			<li><input type="checkbox" name="c">Автоплатёж на Мобильную Коммерцию</li>
+			<li><input type="checkbox" name="c">Автоплатёж на ПКУ</li>
+
+		</ol>
+		</label>
+		<br>
+		<br>
+		<br>
+
+		<form >
+			<button id="accept" ></button>
+		</form>
+
+		
+		<label id="vib">
+			Не знаете что выбрать? Пройдите тест, и мы поможем сделать выбор!
+		</label>
+		<label>
+			<button src="startTest.png" id="tsi" width="691" height="130" onclick="StartTest();"></button>
+		</label>
+
+		
+	</div>
+
+	<div >
+		<img src="end.png" id="footer">
+		</div>
+
+</body>
+</html>
